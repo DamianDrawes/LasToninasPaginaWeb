@@ -1,0 +1,16 @@
+.impresiones3d{
+    position: relative;
+    width: 100%;
+}
+
+.impresiones3d img {
+    position: absolute;
+    left: 0;
+    width: 600px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);;
+}
+
+.impresiones3d p {
+    margin-left: 650px; /* Ajusta el margen izquierdo para dar espacio a la imagen */
+}
