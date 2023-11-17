@@ -1,0 +1,52 @@
+
+.nuevo{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nuevo img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: all 1s ease; 
+    z-index: 0;
+    
+}
+
+.nuevo img:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+    opacity: 1;
+    filter:contrast(120%);
+    z-index: 1;
+}
+
+.productof p{
+    position: absolute;
+    transform: translate(10% ,20%);
+    font-size: 2rem;
+    background-color:rgba(255, 255, 255, 0.479);
+}
+
+#sproducto div{
+    flex: 1;
+    text-align: center;
+}
+
+#sproducto img{
+    width: 70%;
+}
+
+#sproducto p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+

@@ -1,0 +1,52 @@
+
+.text{
+    color: var(--rs1);
+    text-shadow: 0 0 2px rgb(0, 0, 0);;
+    background-color: rgba(0, 0, 0, 0.267);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 1s ease; 
+}
+.mas{
+    color: var(--rs1);
+    background-color: rgb(90, 90, 90);
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+    position: absolute;      
+    top: 80%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 1s ease; 
+}
+
+.box:hover img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    filter: brightness(60%);
+    cursor:pointer;
+}
+
+.box:hover .text{
+    opacity: 1;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+}
+
+.box:hover .mas{
+    opacity: 1;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+}
+
+.mas:hover{
+    color:black;
+    background-color: var(--rs1);
+    font-size: 1.4rem;
+    cursor:pointer;
+}
